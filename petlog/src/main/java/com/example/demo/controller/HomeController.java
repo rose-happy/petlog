@@ -10,5 +10,6 @@ public class HomeController {
 	@GetMapping("/home")
 	public void home(HttpServletResponse httpServletResponse){
 		System.out.println("HOME");
+		System.out.println("Git!!");
 	}
 }
